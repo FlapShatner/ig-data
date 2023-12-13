@@ -41,7 +41,10 @@ export default function CSVReader({ setResults, setFileName }: any) {
    {({ getRootProps, acceptedFile, ProgressBar, getRemoveFileProps, Remove }: any) => (
     <>
      <div
-      className={cn('cursor-pointer border-2 border-dashed border-slate-400 mt-2 py-8 px-36 rounded-xl', acceptedFile && showResults && 'p-0 border-none')}
+      className={cn(
+       'cursor-pointer border-2 border-dashed border-slate-400 mt-2 py-8 w-[500px] rounded-xl text-center',
+       acceptedFile && showResults && 'p-0 border-none'
+      )}
       {...getRootProps()}>
       {acceptedFile && showResults ? (
        <>
