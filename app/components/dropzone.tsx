@@ -48,7 +48,7 @@ export default function CSVReader({ setResults, setFileName }: any) {
       {...getRootProps()}>
       {acceptedFile && showResults ? (
        <>
-        <div className={cn('bg-gradient-to-b from-gray-50 to-gray-300 rounded-2xl flex h-20 w-96 relative z-10 flex-col justify-center')}>
+        <div className={cn('bg-gradient-to-b from-gray-50 to-gray-300 rounded-2xl flex h-20 md:w-96 relative z-10 flex-col justify-center m-auto')}>
          <div className='flex flex-col items-center px-[10px]'>
           <span className='bg-grey-40 rounded-sm mb-2 flex justify-center text-gray-800'>{formatFileSize(acceptedFile.size)}</span>
           <span className='bg-grey-40 rounded-sm text-xs mb-2 text-gray-900'>{acceptedFile.name}</span>
