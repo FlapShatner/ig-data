@@ -7,7 +7,8 @@ const config: Config = {
    colors: {
     bg: 'hsl(215, 18%, 13%)',
     fg: 'hsl(34, 100%, 97%)',
-    'grey-light': 'hsla(0, 0%, 100%, 0.4)',
+    'grey-40': 'hsla(0, 0%, 100%, 0.4)',
+    'grey-10': 'hsla(0, 0%, 100%, 0.1)',
    },
   },
  },
