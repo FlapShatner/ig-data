@@ -42,7 +42,7 @@ export default function CSVReader({ setResults, setFileName }: any) {
     <>
      <div
       className={cn(
-       'cursor-pointer border-2 border-dashed border-slate-400 mt-2 py-8 w-[500px] rounded-xl text-center',
+       'cursor-pointer border-2 border-dashed border-slate-400 mt-2 py-8 md:w-[500px] w-11/12 rounded-xl text-center',
        acceptedFile && showResults && 'p-0 border-none'
       )}
       {...getRootProps()}>
